@@ -8,6 +8,6 @@ def initialize(word)
 end
 
 def match(words)
-  @word.match(%w
+  @word.match(%w(array))
 
 end
