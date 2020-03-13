@@ -8,7 +8,8 @@ class Anagram
   end
 
   def match(word)
-    %w(array)
+    word.each do |word|
+      
   end
 
 end
