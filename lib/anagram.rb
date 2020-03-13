@@ -8,9 +8,11 @@ class Anagram
   end
 
   def match(word)
-    %w(array)
     array.each do |word|
-      
+      if !array[index].uniq
+        return index
+      end
+    end
   end
 
 end
